@@ -1,0 +1,19 @@
+{
+  "name": "movie_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viamazoba/Movie_api.git"
+  },
+  "author": "viamazoba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viamazoba/Movie_api/issues"
+  },
+  "homepage": "https://github.com/viamazoba/Movie_api#readme"
+}
