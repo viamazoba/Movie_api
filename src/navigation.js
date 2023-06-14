@@ -47,6 +47,15 @@ function homePage(){
     genericSection.classList.add('inactive');
     movieDetailSection.classList.add('inactive');
 
+    headerSection.style.background= `
+    linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 19.27%,
+        rgba(0,0,0,0) 29.17%
+    ),
+    url()
+    `;
+
     getTrendingMoviesPreview();
     getCategoriesPreview();
 }
@@ -89,6 +98,9 @@ function movieDetailsPage(){
     categoriesPreviewSection.classList.add('inactive');
     genericSection.classList.add('inactive');
     movieDetailSection.classList.remove('inactive');
+
+    const [_, movieId] = location.hash.split('=');
+    getMovieById(movieId);
 }
 
 function searchPage(){
